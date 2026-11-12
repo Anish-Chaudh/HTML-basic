@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h2>REGISTRATION FORM</h2>
+        <form action="/action.php">
+            <input type="text"placeholder="User Name">
+            <br>
+            <input type="password"placeholder="Password">
+            <br>
+            <h3>SELECT YOUR CLASS</h3>
+            <label for="100">
+            <input type="radio" value="class XI" name="class"id="100">class XI
+            </label>
+            <br>
+            <label for="101">
+            <input type="radio" value="class XII" name="class"id="101">class XII
+            </label>
+            <hr>
+            <h3>SELECT YOUR FAV SUBJECT</h3>
+            <label for="math">
+                <input type="checkbox" value="math" name="subject" id="101">Math
+            </label>
+            <br>
+            <label for="digital logic">
+                <input type="checkbox" value="digital logic" name="subject" id="102">Digital Logic
+            </label>
+            <br>
+            <label for="calculus I">
+                <input type="checkbox" value="calculus I" name="subject" id="103">Calculus I
+            </label>
+            <br>
+            <label for="probability">
+                <input type="checkbox" value="probability" name="subject" id="104">Probability
+            </label>
+            <hr>
+            <h3>SELECT YOUR CURRENT CITY</h3>
+            <select name="city">
+                <option value="kathmandu">Kathmandu</option>
+                <option value="Pokhara">Pokhara</option>
+                <option value="Biratnagar">Biratnagar</option>
+                <option value="Itahari">Itahari</option>
+
+            </select>
+            <hr>
+            <textarea name="feedback" id="101" placeholder="please give your valuable feedback"rows="5"></textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </main>
+</body>
+</html>
